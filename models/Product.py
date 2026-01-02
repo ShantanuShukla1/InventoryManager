@@ -16,6 +16,10 @@ class Product:
         self.description = description
         self.category = category
 
+    @property
+    def id(self):
+        return self.product_id
+
     def update_price(self, new_price: float):
         if new_price < 0:
             raise ValueError("Price cannot be negative")
