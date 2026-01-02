@@ -1,7 +1,7 @@
 from typing import List
 from enum import Enum
 
-from OrderItem import OrderItem
+from models.OrderItem import OrderItem
 
 
 class OrderStatus(Enum):
