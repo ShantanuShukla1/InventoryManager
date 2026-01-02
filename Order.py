@@ -1,7 +1,15 @@
-from datetime import datetime
-import OrderStatus
-import Customer
-import OrderItem
+from typing import List
+from enum import Enum
+
+from OrderItem import OrderItem
+
+
+class OrderStatus(Enum):
+    PENDING = "Pending"
+    PAID = "Paid"
+    SHIPPED = "Shipped"
+    CANCELLED = "Cancelled"
+
 
 class Order:
     def __init__(self, order_id: int, customer: Customer, items: list[OrderItem], status: OrderStatus, created_at: datetime):
