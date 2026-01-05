@@ -17,6 +17,10 @@ SQLite (built-in with Python) for database storage.
 Running and Using API:
 The API runs as a web server. Once started, users can access it via a web browser or an API client. FastAPI provides interactive documentation where all available operations such as adding products, creating orders, and viewing inventory can be tested without any additional tools.
 Users interact with the system through the web interface or API clients. The interactive documentation allows users to explore all available endpoints and execute actions such as adding products, creating orders, and checking inventory and spending totals. No programming knowledge is required to test the API through the documentation interface.
+Upon Running the API, the user should see this:
+<img width="1271" height="848" alt="Screenshot 2026-01-05 152336" src="https://github.com/user-attachments/assets/d0fc0c98-9fa0-49e6-953e-1e9909b185dd" />
+<img width="1913" height="866" alt="Screenshot 2026-01-05 152442" src="https://github.com/user-attachments/assets/f4555515-0776-4abb-8b2d-82fa0690d075" />
+
 
 Swagger UI (interactive API docs): http://127.0.0.1:8000/docs
 ReDoc API docs: http://127.0.0.1:8000/redoc
